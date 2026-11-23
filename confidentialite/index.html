@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Canapéro · Règles de confidentialité</title>
+<style>
+  :root { --bg:#0D0D16; --raised:#14142A; --surface:#212130; --ink:#FFFFFF; --ink2:#C9CCE3; --muted:#A7ABC6; --accent:#4A6BF7; --accent-sh:#2B3FA8; --hl:#FACC15; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: linear-gradient(180deg, var(--raised), var(--bg)) fixed; color: var(--ink2);
+         font: 17px/1.6 Rubik, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 22px 72px; }
+  .brand { display: inline-block; transform: rotate(-2deg); background: var(--accent); box-shadow: 0 6px 0 var(--accent-sh);
+           border-radius: 14px; padding: 6px 18px; color: var(--ink); font-weight: 900; letter-spacing: .02em; font-size: 22px; }
+  h1 { color: var(--ink); font-size: 34px; line-height: 1.2; margin: 28px 0 6px; font-weight: 900; }
+  .date { color: var(--muted); margin: 0 0 28px; }
+  h2 { color: var(--ink); font-size: 21px; margin: 36px 0 8px; font-weight: 800; }
+  .resume { background: var(--surface); border-radius: 20px; padding: 18px 22px; box-shadow: 0 6px 0 #000; }
+  .resume p { margin: 0; color: var(--ink); font-weight: 600; }
+  ul { padding-left: 22px; } li { margin: 4px 0; }
+  strong { color: var(--ink); }
+  a { color: var(--hl); }
+  code { background: var(--surface); border-radius: 6px; padding: 1px 6px; font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <span class="brand">CANAPÉRO</span>
+  <h1>Règles de confidentialité</h1>
+  <p class="date">Application Android TV « Canapéro » (<code>fr.canapero.app</code>) · Dernière mise à jour : 23 novembre 2026</p>
+
+  <div class="resume"><p>En bref : Canapéro ne collecte, n'envoie et ne vend aucune donnée personnelle. Tout se passe chez vous, entre votre TV et les téléphones connectés au même réseau Wi-Fi.</p></div>
+
+  <h2>1. Comment fonctionne l'application</h2>
+  <p>Canapéro est installée sur une TV Android. Elle affiche un QR code : les joueurs le scannent avec leur téléphone, qui ouvre une page web servie <strong>directement par la TV</strong>, sur votre réseau local. Il n'y a ni serveur sur Internet, ni compte à créer, ni application à installer sur les téléphones.</p>
+
+  <h2>2. Les informations utilisées pendant une partie</h2>
+  <ul>
+    <li><strong>Le pseudo et la couleur</strong> choisis par chaque joueur, pour l'afficher sur la TV.</li>
+    <li><strong>Les actions de jeu</strong> envoyées par le téléphone (appuis, votes, réponses, inclinaison du téléphone dans « Course inclinée »).</li>
+    <li><strong>Les scores</strong> de la partie en cours.</li>
+  </ul>
+  <p>Ces informations restent dans la mémoire de la TV pendant la partie et disparaissent quand l'application est fermée. Elles ne sont jamais envoyées sur Internet, ni à nous, ni à des tiers.</p>
+  <p>Sur le téléphone, la page de jeu garde dans le navigateur le pseudo et un identifiant de joueur tiré au hasard, pour vous reconnecter si l'écran se met en veille. Vous pouvez les effacer en vidant les données du site dans votre navigateur.</p>
+
+  <h2>3. Ce que Canapéro ne fait pas</h2>
+  <ul>
+    <li>Aucune publicité, aucun identifiant publicitaire.</li>
+    <li>Aucun outil de statistiques ou de suivi, aucun cookie de suivi.</li>
+    <li>Aucune collecte de localisation, de contacts, de photos, de micro ou de caméra.</li>
+    <li>Aucun partage ni aucune vente de données.</li>
+  </ul>
+
+  <h2>4. Autorisations demandées</h2>
+  <p>L'application demande l'accès au réseau (<code>INTERNET</code> et <code>ACCESS_NETWORK_STATE</code>) uniquement pour faire fonctionner le petit serveur local qui relie la TV aux téléphones sur votre Wi-Fi. Pour « Course inclinée », le navigateur du téléphone peut demander l'accès aux capteurs de mouvement : ces mesures servent seulement à diriger la bille et ne sont pas enregistrées.</p>
+
+  <h2>5. Enfants</h2>
+  <p>Canapéro est un jeu familial. Comme aucune donnée personnelle n'est collectée ni transmise, l'application ne recueille aucune information sur les enfants.</p>
+
+  <h2>6. Modifications</h2>
+  <p>Si ces règles changent, la nouvelle version sera publiée sur cette page, avec sa date de mise à jour.</p>
+
+  <h2>7. Contact</h2>
+  <p>Pour toute question sur ces règles : <a href="mailto:beliant.denis@gmail.com">beliant.denis@gmail.com</a>.</p>
+  <p>Éditeur : dniscorp, développeur indépendant.</p>
+</main>
+</body>
+</html>
